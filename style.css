@@ -1,0 +1,87 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  grid-column: 1/-1;
+  margin-top: 40px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  justify-content: center;
+  /* align-items: center; */
+  max-width: 1440px;
+  margin: 200px auto;
+}
+
+.section-box {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 40px 20px;
+}
+
+.section-sedans {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.section-suvs {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.section-luxury {
+  background-color: hsl(179, 100%, 13%);
+}
+
+.car-img {
+  height: 48px;
+  width: 66px;
+}
+
+.headings {
+  text-transform: uppercase;
+  color: hsl(0, 0%, 95%);
+  font-size: 20px;
+}
+
+.description {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 15px;
+  margin-bottom: 40px;
+}
+
+.learn-more-button {
+  width: 150px;
+  align-self: self-start;
+  padding: 15px 10px;
+  border-radius: 20px;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.btn-sedans {
+  color: hsl(31, 77%, 52%);
+}
+
+.btn-suv {
+  color: hsl(184, 100%, 22%);
+}
+
+.btn-luxury {
+  color: hsl(179, 100%, 13%);
+}
